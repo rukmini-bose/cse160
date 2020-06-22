@@ -498,7 +498,7 @@ window.onload = function() {
        }
   };
   dog = new Image();
-  dog.src = "dog.png";
+  dog.src = "img/dog.png";
   dog.onload = function() {
     completeOne = true;
     console.log(completeOne);
@@ -506,7 +506,7 @@ window.onload = function() {
   };
 
   ball = new Image();
-  ball.src = "ball.png";
+  ball.src = "img/ball.png";
   ball.onload = function() {
     completeTwo = true;
     console.log(completeTwo);

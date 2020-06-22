@@ -19,14 +19,14 @@ body {
   top: 0px;
   opacity: .2;
   display: inline-block;
-  background-image: url("../sky.gif");
+  background-image: url("../img/sky.gif");
   margin: auto;
 }
 #mazeContainer #mazeCanvas {
   border: solid 10px transparent;
   height: 750px;
   width: 750px;
-  background-image: url("../sky.gif");
+  background-image: url("../img/sky.gif");
 }
 
 input,
@@ -148,7 +148,7 @@ select:focus {
 #gradient {
   z-index: -1;
   position: fixed;
-  background-image: url("../sky.gif");
+  background-image: url("../img/sky.gif");
   width: 10000px;
   height: 10000px;
 
