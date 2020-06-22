@@ -460,12 +460,12 @@ function initTextures() {
   }
 
   // Tell the browser to load an image
-  image0.src = 'ground.jpg';
-  image1.src = 'sky.jpg';
-  image2.src = 'wall.jpg';
-  image3.src = 'bush.jpg';
-  image4.src = 'fire.jpg';
-  image5.src = 'skin.jpg';
+  image0.src = 'img/ground.jpg';
+  image1.src = 'img/sky.jpg';
+  image2.src = 'img/wall.jpg';
+  image3.src = 'img/bush.jpg';
+  image4.src = 'img/fire.jpg';
+  image5.src = 'img/skin.jpg';
   // Add more textures later 
 
   return true;
