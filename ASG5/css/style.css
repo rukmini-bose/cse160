@@ -1,0 +1,158 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+#mazeContainer {
+  transition-property: opacity;
+  transition-duration: 4s;
+  transition-timing-function: linear;
+  top: 0px;
+  opacity: .2;
+  display: inline-block;
+  background-image: url("../sky.gif");
+  margin: auto;
+}
+#mazeContainer #mazeCanvas {
+  border: solid 10px transparent;
+  height: 750px;
+  width: 750px;
+  background-image: url("../sky.gif");
+}
+
+input,
+button,
+select {
+  cursor: pointer;
+  background-color: rgba(177, 156, 217, .6);
+  height: auto;
+  width: auto;
+  padding: 4px;
+  border: ridge;
+  border-color: rgba(177,156, 210);
+  border-radius: 20px;
+  color: white;
+  font-family: fantasy;;
+  font-size: 26px;
+}
+
+input:hover,
+select:hover {
+  background-color: rgba(177, 156, 217, .7);
+}
+input:active,
+select:active {
+  background-color: purple;
+}
+input:focus,
+select:focus {
+  outline: none;
+}
+
+#playAudio {
+  background-color: rgba(0,0,0,0);
+  border-width: 0px;
+  box-sizing: border-box;
+  /*border-color: transparent transparent transparent #202020;*/
+  position: relative;
+  right: -650px ;
+  bottom: -500px;
+}
+
+#restartButton{
+  background-color: rgba(255, 0, 0, 1);
+  width: auto;
+  height: auto;
+  border: ridge;
+  font-family: fantasy;;
+  /*border-color: rgba(255,0,0,1);*/
+  border-radius: 20px;
+  position: absolute;
+  background-image: linear-gradient(purple, blue);
+  bottom: 50%;
+  right: 50%;
+  color: white;
+}
+
+
+.custom-select {
+  display: inline-block;
+}
+.custom-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: 125px center;
+}
+
+#end-Message {
+  visibility: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 1;
+
+}
+#end-Message #message {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+}
+
+#page {
+  text-align: center;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-right: 20px; 
+  margin-left: 20px;
+}
+#page #menu {
+  margin: auto;
+  padding: 10px;
+  height: 65px;
+  box-sizing: border-box;
+}
+#page #menu h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 3.2rem;
+}
+#page #view {
+  position: absolute;
+  top: 65px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+
+}
+
+.border {
+  border: 50px black solid;
+  border-radius: 5px;
+}
+
+#gradient {
+  z-index: -1;
+  position: fixed;
+  background-image: url("../sky.gif");
+  width: 10000px;
+  height: 10000px;
+
+}
+
+
+

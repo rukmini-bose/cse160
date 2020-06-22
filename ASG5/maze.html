@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fetch</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+
+  <style>
+    img{
+      position: relative;
+      height: 250px;
+      width: 250px;
+    }
+  </style>
+
+
+<!-- <audio src="music.mp3" autoplay>
+<p>If you are reading this, it is because your browser does not support the audio element.     </p>
+<embed src="/music/good_enough.mp3" width="180" height="90" hidden="true" />
+</audio> -->
+
+
+
+  <body>
+    <div id="gradient"></div>
+    <div id="page">
+      <div id="end-Message">
+
+        
+        <img SRC= "congrats.gif">
+        <img SRC= "congrats1.gif">
+        <img SRC= "congrats2.jpg">
+        <img SRC= "congrats3.gif">
+        <img SRC= "congrats4.gif">
+        <img SRC= "congrats5.gif">
+        <img SRC= "congrats6.gif">
+        <img SRC= "congrats7.gif">
+        <img SRC= "congrats8.gif">
+        <img SRC= "congrats9.gif">
+        <img SRC= "congrats10.gif">
+        <img SRC= "congrats11.gif">
+        <img SRC= "congrats12.gif">
+        <img SRC= "congrats13.gif">
+        <img SRC= "congrats14.gif">
+        <img SRC= "congrats15.gif">
+        <img SRC= "congrats16.gif">
+        <img SRC= "congrats17.gif">
+        <img SRC= "congrats18.gif">
+        <img SRC= "congrats19.gif">
+        <img SRC= "congrats20.gif">
+        <img SRC= "congrats21.gif">
+        <img SRC= "congrats22.gif">
+        <img SRC= "congrats23.gif">
+        <img SRC= "congrats24.gif">
+        <img SRC= "congrats25.gif">
+        <img SRC= "congrats26.gif">
+        <img SRC= "congrats27.gif">
+        <img SRC= "congrats28.gif">
+        <img SRC= "congrats29.gif">
+        <img SRC= "congrats30.gif">
+        <img SRC= "congrats31.gif">
+        <img SRC= "congrats32.gif">
+        <img SRC= "congrats33.gif">
+        <img SRC= "congrats34.gif">
+        <img SRC= "congrats35.gif">
+
+
+
+
+          <button id="restartButton" type="button" onclick="makeVisable('end-Message')">
+            Congratulations!<br /> Pupper Captured the Ball.<br /> <br /> Fetch Again?
+          </button>
+
+        <!-- </div> -->
+      </div>
+
+      <div id="menu">
+        <div class="custom-select">
+          <select id="difficultyOption">
+                    <option value="5">Level 1</option>
+                    <option value="12">2</option> -->
+                    <option value="17">3</option>
+                    <option value="23">4</option>
+                    <option value="30">5</option>
+
+                   <!--  <option value="38">Extreme</option>   -->                                    
+                </select>
+        </div>
+        <input id="startMazeBtn" type="button" onclick="makeMaze()" value="New Maze" />
+
+
+
+    
+      </div>
+
+      
+      <div id="view">
+        <div id="mazeContainer">
+          <canvas id="mazeCanvas" class="border" height="1100" width="1100"></canvas>
+        </div>
+      </div>
+
+      <audio id="testAudio" hidden src="music.mp3" type="audio/mpeg">
+        </audio>
+        <button id="playAudio" type="button" ><img src="pause.png"></button>
+        <script type="text/javascript">
+          document.getElementById("playAudio").addEventListener("click", function(){
+            var audio = document.getElementById('testAudio');
+            if(this.className == 'is-playing'){
+              this.className = "";
+              // this.innerHTML = "Play"
+              audio.pause();
+            } else{
+              this.className = "is-playing";
+              // this.innerHTML = "Pause";
+              audio.play();
+            }
+          });
+        </script>
+    </div>
+
+
+    <script src="lib/javascript.js"></script>
+    <script src="lib/jQuery.html"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
+  
+
+  
+
+
+</body>
+
+</html>

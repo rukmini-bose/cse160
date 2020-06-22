@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title> Rukmini's Paint Program </title>
+    <style> 
+        #hopper{
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        body{
+            background: #eef;
+        }
+    </style>
+  </head>
+
+
+
+  <body onload="main()">
+
+    <div id="canvases">
+        <canvas id="webgl" width="400" height="400">
+        Please use a browser that supports "canvas"
+        </canvas>
+        <canvas id="preview" width="100" height="100">
+        Please use a browser that supports "canvas"
+        </canvas>
+        <p> 
+        <p>         
+    </div>
+
+    
+    <!-- <p id="numdot"> XXX </p> -->
+
+    <button type="button" id="clearButton">Clear Canvas</button>
+    <p>
+
+    <!-- <button type="button" id="green">Green</button>
+    <button type="button" id="red">Red</button> -->
+
+    
+    <label for="Mode">Drawing Mode: </label>
+    <p> 
+
+    <button type="button" id="pointButton">Point</button>
+    <button type="button" id="triButton">Triangle</button>
+    <button type="button" id="circleButton">Circle</button>
+
+    <p>
+
+    <label for="Color">Shape Color: </label>
+    <p>
+    Red <input type="range" min="0" max="100" value="100" class="slider" id="redSlide">
+   
+    Green <input type="range" min="0" max="100" value="100" class="slider" id="greenSlide"> 
+    
+    Blue <input type="range" min="0" max="100" value="100" class="slider" id="blueSlide">
+
+    <p>
+    Shape Size: <input type="range" min="5" max="40" value="0" class="slider" id="sizeSlide">
+    
+
+    (Circles) Segment Count: <input type="range" min="5" max="40" value="0" class="slider" id="segSlide">
+
+
+    
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="Point.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Circle.js"></script>
+    <script src="ColoredPoints.js"></script>
+
+    <!-- ----------------BUTTON EDITS-------------------------------- -->
+    <style>
+        button {
+            display: inline-block;
+            background-color: #1d87c9;
+            color: #eee;
+            margin: 20px;
+            position: relative;
+            width: 140px;
+            height: 45px;
+            border-radius: 3px;
+            border: none;
+            font-size: 1em;
+            text-align: center;
+            text-decoration: none;
+            box-shadow: 0 2px 8px 0 #299;
+        }
+        button:hover {
+            background-color: #299;
+            color: #ffcc00;
+        }
+        #clearButton {
+            cursor: url("IMG/eraser.gif"), auto;
+        }
+        #pointButton {
+            cursor: url("IMG/point.png"), auto;
+        }
+        #triButton {
+            cursor: url("IMG/triangle.png"), auto;
+        }
+        #circleButton {
+            cursor: url("IMG/circle.png"), auto;
+        }
+    </style>
+
+    <p> <i> To make my project stand out, I have implemented an additional canvas that previews the size, shape, and color of what is about to be drawn. In addition, moving the mouse over certain buttons will change the cursor to a different icon. Lastly, I changed the button colors and added a 3D shadow to them to make it look prettier. </i></p> 
+
+  </head>
+  <body>
+
+
+<!-- -------------------------------------------------------------- -->
+  </body>
+</html>

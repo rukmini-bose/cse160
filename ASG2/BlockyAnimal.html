@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title> Slim Shady </title>
+    <style> 
+        #hopper{
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        body{
+            background: #eef;
+        }
+    </style>
+  </head>
+
+
+
+  <body onload="main()">
+
+    <div id="canvases">
+        <canvas id="webgl" width="400" height="400">
+        Please use a browser that supports "canvas"
+        </canvas>
+        <p>         
+    </div>
+
+    <p> 
+
+    ANIMATE ME!!!  
+        <button type="button" id="animationOn">ON</button>
+        <button type="button" id="animationOff">OFF</button>
+
+    <p>
+    Camera Angle <input type="range" min="-180" max="180" value="5" clas="slider" id="horizontalAngleSlide">
+    <p>
+
+    Raise the Left Arm! <input type="range" min="0" max= "20" value="0" class="slider" id="armSlide">
+
+    <p> 
+    Raise the Left Elbow! <input type="range" min="-90" max= "20" value="0" class="slider" id="elbowSlide">
+
+    <p>
+
+    Animation for Left Arm:        
+        <button type="button" id="animationLeftArmOnButton">ON</button>
+        <button type="button" id="animationLeftArmOffButton">OFF</button>
+
+    <p>
+    Animation for Left Elbow: 
+        <button type ="button" id="animationLeftElbowOnButton">ON</button>
+        <button type="button" id="animationLeftElbowOffButton">OFF</button>
+    <p>
+
+    Animation for Right Arm:        
+        <button type="button" id="animationRightArmOnButton">ON</button>
+        <button type="button" id="animationRightArmOffButton">OFF</button>
+
+    <p>
+    Animation for Right Elbow: 
+        <button type ="button" id="animationRightElbowOnButton">ON</button>
+        <button type="button" id="animationRightElbowOffButton">OFF</button>
+    <p>
+    Walking Legs Animation: 
+        <button type ="button" id="animationLegOnButton">ON</button>
+        <button type="button" id="animationLegOffButton">OFF</button>
+    <p>
+
+
+    
+    
+   
+       
+
+
+    
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Cube.js"></script>
+    <script src="BlockyAnimal.js"></script>
+
+<!-- -------------------------------------------------------------- -->
+  </body>
+</html>

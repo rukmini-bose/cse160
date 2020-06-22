@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title> Lit World </title>
+    <style> 
+        #hopper{
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        body{
+            background: #eef;
+        }
+    </style>
+  </head>
+
+
+
+  <body onload="main()">
+
+    <div id="canvases">
+        <canvas id="webgl" width="400" height="400">
+        Please use a browser that supports "canvas"
+        </canvas>
+        <p>     
+
+    </div>
+
+
+    <p> 
+
+    To Add Blocks: Press Space Bar and Start Clicking! 
+    <p>
+    To Clear Custom Blocks: Press Backspace! 
+
+    <p> 
+
+    <p> 
+        <button type="button" id="animateOn">Animation On</button>
+        <button type="button" id="animateOff">Animation Off</button>
+    <p> 
+    <button type="button" id="lightOn">Light ON</button>
+    <button type="button" id="lightOff">Light OFF</button>
+
+    <p> 
+        <p> 
+    <button type="button" id="spotOn">Spotlight ON</button>
+    <button type="button" id="spotOff">Spotlight OFF</button>
+    
+    <p> 
+    <button type="button" id="normalOn">Normal ON</button>
+    <button type="button" id="normalOff">Normal OFF</button>
+
+    <p> 
+        Light X <input type="range" min="-250" max="250" value="0" class="slider" id="lightSlideX">
+        Light Y <input type="range" min="-100" max="550" value="0" class="slider" id="lightSlideY">
+        Light Z <input type="range" min="-550" max="550" value="0" class="slider" id="lightSlideZ">
+        
+
+
+
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Cube.js"></script>
+    <script src="Sphere.js"></script>
+    <script src="Camera.js"></script>
+    <script src="World.js"></script>
+
+<!-- -------------------------------------------------------------- -->
+  </body>
+</html>
