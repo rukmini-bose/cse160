@@ -1,0 +1,14 @@
+Assignment 5: Space Fetch Maze 
+
+Using a recursive backtracking algorithm and practicing HTML/CSS formatting, a random maze is generated with several difficulty levels. 
+
+
+Features Implemented: 
+- Random Maze generated with click of button 
+- Several difficulties 
+- Play/Pause music button 
+- Hidden message that is activated when maze is completed. 
+- Moving dog using left, right, up, and down buttons
+
+-------------------------------------------------------------------------
+

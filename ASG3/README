@@ -1,0 +1,9 @@
+Assignment 3: 3D Virtual World 
+
+Created a virtual world using textured cubes and explore it using a perspective camera.  
+
+Features Implemented: 
+
+- Textures implemented on each block 
+- Perspective camera can be used with press of "W", "A", "S", "D", "Q", "E" on keyboard 
+- Add and deleting blocks 

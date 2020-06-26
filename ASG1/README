@@ -1,0 +1,13 @@
+Assignment 1: Painting 
+
+Web application to draw simple geometric shapes made out of points and triangles
+
+Features Implemented: 
+    - A canvas where the user can click to draw simple geometric shapes.
+    - When the user clicks and drags the mouse on the canvas, shapes are drawn along the dragged direction.
+    - Buttons to choose between points, circle and triangle brushes.
+    - A slider to determine the number of segments used to create a circle.
+    - A button to clear the canvas.
+    - A slider to set the brush/shape size.
+    - Three sliders to control the shades of red, green and blue of the brush/shape color
+    - Additional canvas that previews what is about to be drawn on main canvas 

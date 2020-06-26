@@ -1,0 +1,10 @@
+Assignment 4: Lighting on Virtual World 
+
+Lighting of a 3D Virtual World using Phong Shader 
+
+Features Implemented: 
+
+- 3D Virtual World created with textured cubes 
+- Phong Shaders using ambient, diffuse, and specular lighting 
+- Buttons to normalize world, turn lightings on/off, turn spotlight on/off
+- Buttons to turn on/off animation of lighting
